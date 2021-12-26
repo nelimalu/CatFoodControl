@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Food Control</title>
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+
+		<h1>CAT FOOD CONTROL™</h1>
+
+		<p id="opened">The cat bowl is currently </p>
+		<p id="open-time">The current opening time is </p>
+		<p id="close-time">The current closing time is </p>
+		<p>Instructions: keep the time input in 24 hour time, and make sure to include a colon in between the hour and the minute</p>
+
+		<input id="input-open-time" placeholder="Open Time"/>
+		<input id="input-close-time" placeholder="Close Time"/>
+
+		<button id="open-button" onclick="testing()">TOGGLE BOWL</button>
+		<button id="update-button" class="regbutton" onclick="updatetime()">UPDATE TIME</button>
+		<button id="reset-button" class="regbutton" onclick="reset()">RESET TO DEFAULT</button>
+
+		<script src="index.js"></script>
+	</body>
+</html>
